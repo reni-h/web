@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="rensita" version="0.1.3">
+ <settings>
+  <title>rensita</title>
+  <revision description="created" date="1/4/25" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item name="rensita" />
+  <item name="rensita2" />
+  <item name="rensita3" />
+ </sequence>
+ <activities>
+  <activity class="@puzzles.DoublePuzzle" name="rensita" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="artistic-gymnastics-sketch-vector-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="rensita2" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="gimnasia2.jpg">
+    <style />
+    <shaper class="@JigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.HolePuzzle" name="rensita3" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="gimnasia4-resized.jpg">
+    <style />
+    <shaper class="@JigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="artistic-gymnastics-sketch-vector-resized.jpg" file="artistic-gymnastics-sketch-vector-resized.jpg" />
+  <media name="gimnasia2.jpg" file="gimnasia2.jpg" />
+  <media name="gimnasia4-resized.jpg" file="gimnasia4-resized.jpg" />
+ </mediaBag>
+</JClicProject>
+

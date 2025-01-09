@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>renata</dc:creator>
+    <dc:title>Cuanto sabes</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>Cuanto sabes </title>
+
+<timer><seconds>180</seconds><include-timer>1</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>&amp;#x00BF;Cu&amp;#x00E1;l de los siguientes aparatos es utilizado exclusivamente por las mujeres en la gimnasia art&amp;#x00ED;stica?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Barra fija</text><feedback>Incorrecto</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Barra de equilibrio</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Anillos</text><feedback>Incorrecto</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Caballo con arzones</text><feedback>incorrecto</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x00BF;En qu&amp;#x00E9; disciplina se realiza el &quot;salto de caballo&quot;?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>2</question-type><answers><answer><text>GIMNASIA  ARTISTICA</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>gimnasia artistica</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Gimnasia artistica</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Gimnasia Artistica</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x00BF;Cu&amp;#x00E1;les de los siguientes aparatos son utilizados en la gimnasia art&amp;#x00ED;stica?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Barra de equilibrio</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Anillos</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Trampolin</text><feedback>Incorrecto</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Barra de equilibrio</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>&amp;#x00BF;Qu&amp;#x00E9; aparato se utiliza en gimnasia art&amp;#x00ED;stica para realizar saltos y acrobacias sobre una plataforma elevada?</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>3</question-type><answers><answer><text>Barra de quilibrio</text><feedback>Incorrecto</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Caballo con arzones</text><feedback>Incorrecto</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Barra fija</text><feedback>Incorrecto</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Salto de caballo</text><feedback>Correcto</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>
+Respoden correctamente</exercise-subtitle>
+<instructions>Escoge la respuesta correcta para cada pregunta, haciendo click sobre la letra correspondiente.
+</instructions>
+<guess-correct>&amp;#x00A1;Muy bien! Acertaste.</guess-correct>
+<guess-incorrect>&amp;#x00A1;Error! Esa no era la respuesta correcta. Int&amp;#x00E9;ntalo de nuevo.</guess-incorrect>
+<partly-incorrect>Tu respuesta no es correcta: </partly-incorrect>
+<enter-a-guess>Por favor, introduce tu respuesta.</enter-a-guess>
+<next-correct-letter>Siguiente letra correcta en la respuesta: </next-correct-letter>
+<correct-answers>Respuestas correctas: </correct-answers>
+<show-answer-caption>Mostrar Respuesta</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>0</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>1</send-email>
+<continuous-scoring>0</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>1</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Tu puntuaci&amp;#x00F3;n es: </your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>:-(</incorrect-indicator>
+<correct-first-time>Respuestas correctas a la primera: </correct-first-time>
+<completed-so-far>Preguntas contestadas hasta este punto:</completed-so-far>
+<exercise-completed>Ejercicio completado.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>&amp;#x00A1;Tiempo Finalizado!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Volver al &amp;#x00ED;ndice</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>../index.html</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial</font-face>
+<font-size>big</font-size>
+<page-bg-color>#f6ac69</page-bg-color>
+<title-color>#320000</title-color>
+<ex-bg-color>#f6bc66</ex-bg-color>
+<text-color>#320000</text-color>
+<link-color>#000000</link-color>
+<vlink-color>#000000</vlink-color>
+<nav-bar-color>#320000</nav-bar-color>
+<formmail-url>http://www.dimensis.com/cgi-bin/FormMail.pl</formmail-url>
+<email>correo@lagaleriadelvino.com.com</email>
+<name-please>Escribe tu nombre, por favor:</name-please>
+<user-string-1></user-string-1>
+<user-string-2></user-string-2>
+<user-string-3></user-string-3>
+<header-code></header-code>
+<correct-first-time>Respuestas correctas a la primera: </correct-first-time>
+<check-caption>Verificar</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>Siguiente=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=Anterior </last-q-caption>
+<hint-caption>Pista</hint-caption>
+<show-all-questions-caption>Mostrar todas las preguntas</show-all-questions-caption>
+<show-one-by-one-caption>Mostrar preguntas una a una</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>
